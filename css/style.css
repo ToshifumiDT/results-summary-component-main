@@ -9,6 +9,9 @@ body {
     height: 100vh;
 }
 
+/*for desktop*/
+@media (min-width: 376px) {
+
 .container-wrapper {
     display: flex;
     justify-content: space-between;
@@ -105,7 +108,7 @@ p{
     color: hsla(222, 100%, 96%, 0.8);
     text-align: center;    
     margin-left: 55px;
-    margin-top: 0;
+    margin-top: 15px;
     width: 70%;
 
 }
@@ -221,8 +224,26 @@ p{
     margin: 50px 60px 10px 40px;
 }
 
+}
+
+
+/*for mobile*/
+@media (max-width: 375px) {
+
+
+
+}
+
 #button-styling:hover{
     cursor: pointer;
+}
+
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 header{
