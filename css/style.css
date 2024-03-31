@@ -13,33 +13,41 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 780px; 
-    box-shadow: 12px 20px 20px  hsla(224, 30%, 27%, 0.178)
+    width: 790px; 
+    box-shadow: 12px 20px 20px  hsla(224, 30%, 27%, 0.178);
+    border-radius: 30px;
 }
+
+/*Container 1*/
 
 .container1 {
     background-color: hsl(241, 81%, 54%);
-    width: 380px;
-    height: 500px;
+    width: 390px;
+    height: 550px;
     border-radius: 30px;
 }
+
+/*Container 2*/
 
 .container2 {
     background-color: rgb(255, 255, 255);
     width: 400px;
-    height: 500px;
+    height: 550px;
     border-radius: 0 30px 30px 0;
 }
 
+/*Circle*/
+
 .circle{
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
     background-color: hsl(234, 85%, 45%);
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin:auto;
+    margin-top: 40px;
 }
 
 #circle76{
@@ -53,10 +61,14 @@ body {
     text-align: center;
     font-size: 18px;
     margin: 0 auto;
+    color: hsla(222, 100%, 96%, 0.5);
 }
 
+/*h1 Your Result and Summary*/
+
 h1{
-    font-size: 26px;
+    font-size: 24px;
+    margin-top: 45px;
 }
 
 #result{
@@ -65,10 +77,11 @@ h1{
 }
 
 #summary{
-    margin-left: 30px;
+    margin-left: 40px;
     color: hsl(224, 30%, 27%);
 }
 
+/*h2*/
 
 h2{
     font-size: 32px;
@@ -77,92 +90,102 @@ h2{
 
 }
 
+#great{
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+/*P*/
+
 p{
     font-size: 18px;
-    color: hsl(221, 100%, 96%);
+}
+
+#text{
+    color: hsla(222, 100%, 96%, 0.8);
     text-align: center;    
     margin-left: 55px;
+    margin-top: 0;
     width: 70%;
 
 }
 
+/*color box*/
+
 #red{
     color: hsl(0, 100%, 67%);
     font-size: 20px;
+    margin-right: 75px;
+    margin-left: 0;
 }
 
 .reaction{
-    background-color: hsla(0, 100%, 67%, 0.200);
+    background-color: hsla(0, 100%, 67%, 0.100);
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 30px 60px 10px 40px;
 }
 
 #yellow{
     color: hsl(39, 100%, 56%);
     font-size: 20px;
+    margin-right: 75px;
+    margin-left: 0;
 }
 
 .memory{
-    background-color: hsla(39, 100%, 56%, 0.200);
+    background-color: hsla(39, 100%, 56%, 0.100);
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 12px 60px 10px 40px;
 }
 
 #green{
     color: hsl(166, 100%, 37%);
     font-size: 20px;
+    margin-right: 90px;
+    margin-left: 0;
 }
 
 .verval{
-    background-color: hsla(166, 100%, 37%, 0.200);
+    background-color: hsla(166, 100%, 37%, 0.100);
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 12px 60px 10px 40px;
 }
 
 #blue{
     color: hsl(234, 85%, 45%);
     font-size: 20px;
+    margin-right: 90px;
+    margin-left: 0;
 }
 
 .visual{
-    background-color: hsla(234, 85%, 45%, 0.200);
+    background-color: hsla(234, 85%, 45%, 0.100);
     border-radius: 10px;
-    width: 80%;
+    width: 75%;
     height: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 15px;
-}
-
-#button-styling{
-    color: hsl(221, 100%, 96%)
-}
-
-
-.attribution{
-    position: fixed;
-    bottom: 0;
-    left: 0; 
+    margin: 12px 60px 10px 40px;
 }
 
 #icon{
@@ -175,17 +198,18 @@ p{
 }
 
 #number2{
-    color: hsl(224, 30%, 27%);
-    margin: 10px 10px 10px 0;
+    color: hsla(224, 30%, 27%, 0.5);
+    margin: 0 10px 0 0;
 }
 
 
+/*Button*/
 
 #button-styling {
     border: none;
     background-color: hsl(224, 30%, 27%);
     color: hsl(221, 100%, 96%);
-    width: 80%;
+    width: 75%;
     height: 50px;
     border-radius: 25px;
     font-size: 20px;
@@ -194,7 +218,11 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 50px 15px;
+    margin: 50px 60px 10px 40px;
+}
+
+#button-styling:hover{
+    cursor: pointer;
 }
 
 header{
@@ -210,4 +238,12 @@ header{
     color: hsl(221, 100%, 96%);
     color: hsl(241, 100%, 89%);
     color: hsl(224, 30%, 27%);
+}
+
+
+
+.attribution{
+    position: fixed;
+    bottom: 0;
+    left: 0; 
 }
