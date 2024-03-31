@@ -24,7 +24,7 @@ body {
 /*Container 1*/
 
 .container1 {
-    background-color: hsl(241, 81%, 54%);
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     width: 390px;
     height: 550px;
     border-radius: 30px;
@@ -45,7 +45,7 @@ body {
     width: 180px;
     height: 180px;
     border-radius: 90px;
-    background-color: hsl(234, 85%, 45%);
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -118,6 +118,7 @@ p{
 #red{
     color: hsl(0, 100%, 67%);
     font-size: 20px;
+    font-weight: bold;
     margin-right: 75px;
     margin-left: 0;
 }
@@ -137,6 +138,7 @@ p{
 #yellow{
     color: hsl(39, 100%, 56%);
     font-size: 20px;
+    font-weight: bold;
     margin-right: 75px;
     margin-left: 0;
 }
@@ -156,6 +158,7 @@ p{
 #green{
     color: hsl(166, 100%, 37%);
     font-size: 20px;
+    font-weight: bold;
     margin-right: 90px;
     margin-left: 0;
 }
@@ -175,6 +178,7 @@ p{
 #blue{
     color: hsl(234, 85%, 45%);
     font-size: 20px;
+    font-weight: bold;
     margin-right: 90px;
     margin-left: 0;
 }
@@ -230,14 +234,229 @@ p{
 /*for mobile*/
 @media (max-width: 375px) {
 
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+    
+/*Container 1*/
+    
+.container1 {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    height: 450px;
+    border-radius: 0 0 30px 30px;
+}
+    
+/*Container 2*/
+    
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 550px;
+} 
 
+
+/*Circle*/
+
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 40px;
+}
+
+#circle76{
+    color: hsl(221, 100%, 96%);
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 0;
+}
+
+#circle100{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+    color: hsla(222, 100%, 96%, 0.5);
+}
+
+/*h1 Your Result and Summary*/
+
+h1{
+    font-size: 20px;
+}
+
+#result{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    margin-top: 95px;
+}
+
+#summary{
+    margin-left: 40px;
+    margin-top: 25px;
+    color: hsl(224, 30%, 27%);
+}
+
+/*h2*/
+
+h2{
+    font-size: 28px;
+    text-align: center;
+    color: hsl(221, 100%, 96%);
 
 }
+
+#great{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+/*P*/
+
+p{
+    font-size: 18px;
+}
+
+#text{
+    color: hsla(222, 100%, 96%, 0.8);
+    text-align: center;    
+    margin-left: 55px;
+    margin-top: 15px;
+    width: 80%;
+
+}
+
+/*color box*/
+
+#red{
+    color: hsl(0, 100%, 67%);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 75px;
+    margin-left: 0;
+}
+
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.100);
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 60px 10px 40px;
+}
+
+#yellow{
+    color: hsl(39, 100%, 56%);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 75px;
+    margin-left: 0;
+}
+
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.100);
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 60px 10px 40px;
+}
+
+#green{
+    color: hsl(166, 100%, 37%);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 90px;
+    margin-left: 0;
+}
+
+.verval{
+    background-color: hsla(166, 100%, 37%, 0.100);
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 60px 10px 40px;
+}
+
+#blue{
+    color: hsl(234, 85%, 45%);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 90px;
+    margin-left: 0;
+}
+
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.100);
+    border-radius: 10px;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 60px 10px 40px;
+}
+
+#icon{
+    margin-right: 10px;
+}
+
+#number1{
+    color: hsl(224, 30%, 27%);
+    margin-right: 10px;
+}
+
+#number2{
+    color: hsla(224, 30%, 27%, 0.5);
+    margin: 0 10px 0 0;
+}
+
+/*Button*/
+
+#button-styling {
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    width: 80%;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px 10px 40px;
+}
+
+}
+
+
+/*buton*/
 
 #button-styling:hover{
     cursor: pointer;
 }
 
+/*body*/
 
 body {
     font-family: "Hanken Grotesk", sans-serif;
@@ -246,22 +465,7 @@ body {
     font-style: normal;
 }
 
-header{
-    color: hsl(0, 100%, 67%);
-    color: hsl(39, 100%, 56%);
-    color: hsl(166, 100%, 37%);
-    color: hsl(234, 85%, 45%);
-    color: hsl(252, 100%, 67%);
-    color: hsl(241, 81%, 54%);
-    color: hsla(256, 72%, 46%, 1);
-    color: hsla(241, 72%, 46%, 0);
-    color: hsl(0, 0%, 100%);
-    color: hsl(221, 100%, 96%);
-    color: hsl(241, 100%, 89%);
-    color: hsl(224, 30%, 27%);
-}
-
-
+/*attribtuin*/
 
 .attribution{
     position: fixed;
